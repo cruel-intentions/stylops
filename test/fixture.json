@@ -1,0 +1,18 @@
+{
+    "child": {
+        "child-value": "string",
+        "child": {
+            "child-child-value": 42,
+            "child-child-other": "value"
+        },
+        "child_array": [
+            {
+                "child-child-array-zero": "I'm first child",
+                "child-child-array-merge": "I'm first child merge"
+            },
+            {
+                "child-child-array-one": "I'm second child overwrited"
+            }
+        ]
+    }
+}

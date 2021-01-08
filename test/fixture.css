@@ -1,0 +1,46 @@
+@page {
+  integer: 42;
+  integer_array: [42, 41, 40];
+  float: 42.24;
+  float_array: [42.24, 41.14, 40.04];
+  bool: true;
+  bool-not: false;
+  bool_array: [true, false];
+}
+
+@page {
+  other-page: "string"
+}
+
+@page {
+  other-page: "overwrited string"
+}
+
+child {
+  child-value: "string";
+}
+
+child child {
+  child-child-value: 42
+}
+
+child child {
+  child-child-other: "value"
+}
+
+child child_array :nth-child(0) {
+  child-child-array-zero: "I'm first child";
+}
+
+child child_array :nth-child(1) {
+  child-child-array-one: "I'm second child";
+}
+
+child child_array :nth-child(0) {
+  child-child-array-merge: "I'm first child merge";
+}
+
+child child_array :nth-child(1) {
+  child-child-array-one: "I'm second child overwrited";
+}
+
