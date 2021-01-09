@@ -1,0 +1,39 @@
+@require("./vars.styl")
+
+answer = 42
+c = child
+
+@page
+  integer: answer
+  integer_array: array(
+    answer, answer - 1, answer - 2)
+  float:  answer + 0.24
+  float_array: array(
+    answer + 0.24, answer - 0.86, answer - 1.96)
+  bool: true
+  bool-not: false
+  bool_array: array(true, false)
+
+@page
+  other-page: "string"
+
+@page
+  other-page: "overwrited string"
+
+{c}
+  {c}-value: "string"
+  {c}
+    {c}-{c}-value: answer
+  {c}
+    {c}-{c}-other: "value"
+
+{c} {c}_array 
+  {nth(0)}
+    {c}-{c}-array-zero: S("I'm first" c)
+  {nth(1)}
+    {c}-{c}-array-one: S("I'm second" c)
+  {nth(0)}
+    {c}-{c}-array-merge: S("I'm first" c "merge")
+  {nth(1)}
+    {c}-{c}-array-one: S("I'm second" c "overwrited")
+

@@ -1,11 +1,11 @@
 @page {
   integer: 42;
-  integer_array: [42, 41, 40];
+  integer_array: array(42, 41, 40);
   float: 42.24;
-  float_array: [42.24, 41.14, 40.04];
+  float_array: array(42.24, 41.14, 40.04);
   bool: true;
   bool-not: false;
-  bool_array: [true, false];
+  bool_array: array(true, false));
 }
 
 @page {

@@ -13,7 +13,11 @@ const filterIsRoot = filter(selectorIsRoot)
 const filterIsntRoot = reject(selectorIsRoot)
 const attrValue = prop('value')
 const attrName = prop('property')
-const parsedValue = pipe(attrValue, JSON.parse)
+const parsedValue = pipe(
+  attrValue,
+  value => value.replace(/^array\((.+)\)$/, '[$1]'),
+  JSON.parse
+)
 const property = decl => ({[attrName(decl)]: parsedValue(decl)})
 const declarations = pipe(prop('declarations'), map(property), mergeAll)
 const root = pipe(filterPages, filterIsRoot, map(declarations), mergeAll)
