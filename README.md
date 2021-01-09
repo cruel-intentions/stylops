@@ -15,7 +15,7 @@ Write JSON as CSS
 <!-- tocstop -->
 # Why
 
-**MORE PAIN! NO GAIN**
+**MORE PAIN! NO GAIN!**
 
 Instead of make your work of write JSON (maybe YAML) configuration file better
 this will make it worse.
