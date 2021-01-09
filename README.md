@@ -48,14 +48,11 @@ to known what you should and shouldn't do.
 <!-- usage -->
 ```sh-session
 $ npm install -g stylops
-$ stylops COMMAND
-running command...
 $ stylops (-v|--version|version)
 stylops/0.0.1 linux-x64 node-v15.2.1
-$ stylops --help [COMMAND]
-$ stylops -i test/fixture.css -i fixture.json
+$ stylops --help 
 USAGE
-$ stylops COMMAND
+$ stylops -i test/fixture.css -i fixture.json
 ...
 ```
 <!-- usagestop -->
