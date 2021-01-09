@@ -20,11 +20,10 @@ Write JSON as CSS
 Instead of make your work of write JSON (maybe YAML) configuration file better
 this will make it worse.
 
-So we really hope you didn't try to make it easy again using any prep-processor
-like [stylus](https://stylus-lang.com/#features), [sass](https://sass-lang.com/), [less](http://lesscss.org/).
-
-Because if you do, your verbose CSS will gain features like *variables*,
-*includes*, *mixins* and etc, please don't do that.
+We really hope you didn't try to cheat using any prep-processor
+like [stylus](https://stylus-lang.com/#features), [sass](https://sass-lang.com/),
+[less](http://lesscss.org/), because if you do, your verbose CSS will gain
+features like *variables*, *includes*, *mixins* and etc, please don't do that.
 
 Unintended side-effect, every selector merges objects deeply, this means that
 if you write your selector two times your object will:

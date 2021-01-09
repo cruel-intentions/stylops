@@ -1,0 +1,48 @@
+function-event(path, method)
+  path: S(path)
+  method: S(method)
+
+provider
+  environment
+    {PREFIX}_SHARED_KEY: "The0Quick1Brown2Fox3Jumps4-Over5A6Lazy7Dog8"
+
+functions
+  {product}_post
+    handler: S("src/"  + prefix + "/post.handler")
+    events
+      {nth(0)}
+        httpApi
+          function-event("/", "POST")
+
+  {product}_get
+    handler: S("src/"  + prefix + "/get.handler")
+    events
+      {nth(0)}
+        httpApi
+          function-event("/{id}", "GET")
+
+  {product}_put
+    handler: S("src/"  + prefix + "/put.handler")
+    events
+      {nth(0)}
+        httpApi
+          function-event("/{id}", "PUT")
+
+resources
+  Resources
+    {prefix}sTable
+      Type: "AWS::DynamoDB::Table"
+      Properties
+        TableName: S(prefix + "${self:provider.stage}")
+        AttributeDefinitions
+          {nth(0)}
+            AttributeName: "id"
+            AttributeType: "S"
+        KeySchema
+          {nth(0)}
+            AttributeName: "id"
+            KeyType: "HASH"
+        ProvisionedThroughput
+          ReadCapacityUnits: 3
+          WriteCapacityUnits: 3
+
