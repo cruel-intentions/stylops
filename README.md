@@ -55,3 +55,85 @@ $ stylops -i test/fixture.css -o fixture.json
 ...
 ```
 <!-- usagestop -->
+
+# Constraints
+
+1. Your root object is @page, ie:
+```css
+/*
+ {
+  "root-property": "root property value"
+ }
+*/
+
+@page {
+  root-property: "root property value";
+}
+```
+
+2. Atributes should be valid json value (null, true, 3, "avocado")
+```css
+/*
+ {
+    "root-property": 3.14
+ }
+*/
+
+@page {
+  root-property: 3.14;
+}
+```
+
+3. Your object property name is a tag selector, ie:
+```css
+/*
+ {
+    "sub-obj": {
+      "property": "value"
+    }
+ }
+*/
+
+sub-obj {
+  property: "value";
+}
+```
+
+4. Array should be writed with :nth-child(index)
+```css
+/*
+ {
+    "sub-obj": [
+      {
+        "property": "value"
+      }
+    ]
+ }
+*/
+
+sub-obj :nth-child(0) {
+  property: "value"
+}
+
+/*
+ {
+    "sub-prop": [
+      1,
+      2.2,
+      "string",
+      false,
+      null
+    ]
+ }
+*/
+
+@page {
+  sub-prop: array(
+    1,
+    2.2,
+    "string",
+    false,
+    null
+  );
+}
+```
