@@ -25,15 +25,15 @@ like [stylus](https://stylus-lang.com/#features), [sass](https://sass-lang.com/)
 [less](http://lesscss.org/), because if you do, your verbose CSS will gain
 features like *variables*, *includes*, *mixins* and etc, please don't do that.
 
-[Unintended side-effect](./shot-2021-01-09_20-54-34.jpg), every selector merges objects deeply, this means that
+Unintended side-effect, every selector merges objects deeply, this means that
 if you write your selector two times your object will:
 
 1. Merge properties
 2. Overwrite if exists
 
-Happly, unlike any pre-processor, `include` isn't supported, otherwise you
-could use merge resolution make any included file change any property of final
-json, like happens when mutiple css files have same selector.
+Fortunately, unlike any pre-processor, `include` isn't supported, otherwise you
+could use it to make any included file change any property of final
+json, like happens when mutiple css files have same selector, [example](./shot-2021-01-09_20-54-34.jpg?raw=true).
 
 Please look at [tests](./test/fixture.css) and [anti-patterns](./anti-patterns)
 to known what you should and shouldn't do.
