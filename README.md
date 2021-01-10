@@ -25,7 +25,7 @@ like [stylus](https://stylus-lang.com/#features), [sass](https://sass-lang.com/)
 [less](http://lesscss.org/), because if you do, your verbose CSS will gain
 features like *variables*, *includes*, *mixins* and etc, please don't do that.
 
-Unintended side-effect, every selector merges objects deeply, this means that
+[Unintended side-effect](./shot-2021-01-09_20-54-34.jpg), every selector merges objects deeply, this means that
 if you write your selector two times your object will:
 
 1. Merge properties
@@ -51,7 +51,7 @@ $ stylops (-v|--version|version)
 stylops/0.0.1 linux-x64 node-v15.2.1
 $ stylops --help 
 USAGE
-$ stylops -i test/fixture.css -i fixture.json
+$ stylops -i test/fixture.css -o fixture.json
 ...
 ```
 <!-- usagestop -->
