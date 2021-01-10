@@ -1,7 +1,7 @@
 const parse = require('css-parse')
 const {
   head, map, mergeAll, mergeDeepWith, is,
-  pathEq, pathOr, pipe, filter, prop, reject,
+  pathEq, pathOr, pipe, filter, prop, reject
 } = require('ramda')
 
 const rules = ['stylesheet', 'rules']
@@ -18,7 +18,7 @@ const parsedValue = pipe(
   value => value.replace(/^array\((.+)\)$/, '[$1]'),
   JSON.parse
 )
-const property = decl => ({[attrName(decl)]: parsedValue(decl)})
+const property = decl => ({ [attrName(decl)]: parsedValue(decl) })
 const declarations = pipe(prop('declarations'), map(property), mergeAll)
 const root = pipe(filterPages, filterIsRoot, map(declarations), mergeAll)
 const stringify = r => JSON.stringify(r, null, 4)
@@ -27,7 +27,7 @@ const result = pipe(mergeAll, stringify)
 const parts2obj = (parts, value) => {
   const [first, ...rest] = parts
   if (!first) return value
-  return {[first]: parts2obj(rest, value)}
+  return { [first]: parts2obj(rest, value) }
 }
 
 const selector2obj = value => selector => parts2obj(
@@ -42,18 +42,18 @@ const rule2objs = rule => {
 const nth2Array = obj => {
   if (Array.isArray(obj)) return obj.map(nth2Array)
   if (!is(Object, obj)) return obj
-  const keys =  Object.keys(obj)
+  const keys = Object.keys(obj)
   const lastKey = keys.pop()
   const items = Object.entries(obj)
   if (!lastKey.match(/^:nth-child\(\d+\)$/)) {
     return items.reduce((current, [key, value]) => ({
       ...current,
-      [key]: nth2Array(value),
+      [key]: nth2Array(value)
     }), [])
   }
 
   const none = Symbol('None')
-  let result = keys.map(() => none)
+  const result = keys.map(() => none)
   items.forEach(([key, value]) => {
     const index = key.replace(/^:nth-child\((\d+)\)$/, '$1')
     if (index && index !== key) {
@@ -64,10 +64,8 @@ const nth2Array = obj => {
 }
 
 const deepMerger = (left, right) => {
-  if (Array.isArray(left) && Array.isArray(right))
-    return [...left, ...right]
-  if (is(Object, left) && is(Object, right))
-    return mergeDeepWith(deepMerger, left, right)
+  if (Array.isArray(left) && Array.isArray(right)) { return [...left, ...right] }
+  if (is(Object, left) && is(Object, right)) { return mergeDeepWith(deepMerger, left, right) }
   return right
 }
 

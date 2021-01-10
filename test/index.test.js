@@ -1,4 +1,4 @@
-const {expect, test} = require('@oclif/test')
+const { expect, test } = require('@oclif/test')
 const cmd = require('..')
 
 const expected = `{
@@ -41,9 +41,9 @@ const expected = `{
 
 describe('stylops', () => {
   test
-  .stdout()
-  .do(() => cmd.run(['-i', './test/fixture.css']))
-  .it('run convert -i ./fixture.css -o ./fixture.json', ctx => {
-    expect(ctx.stdout).to.contain(expected)
-  })
+    .stdout()
+    .do(() => cmd.run(['-i', './test/fixture.css']))
+    .it('run convert -i ./fixture.css -o ./fixture.json', ctx => {
+      expect(ctx.stdout).to.contain(expected)
+    })
 })
