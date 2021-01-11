@@ -137,3 +137,32 @@ sub-obj :nth-child(0) {
   );
 }
 ```
+
+# Related:
+
+## Posts
+* [Configs Suck](https://beepb00p.xyz/configs-suck.html)
+* [Configuration complexity curse](https://blog.cedriccharly.com/post/20191109-the-configuration-complexity-curse/)
+* [Configuration files suck](https://hackernoon.com/configuration-files-suck-6daa9812f601)
+* [State of config file formats](https://octopus.com/blog/state-of-config-file-formats)
+* [Awsome json (transformations)(https://github.com/burningtree/awesome-json#transformations)
+
+* [Archieml](http://archieml.org)
+* [Skylark](https://docs.bazel.build/versions/master/skylark/language.html#differences-with-python)
+* [Cfg](https://docs.red-dove.com/cfg/index.html)
+* [Coil](https://code.google.com/archive/p/coil/)
+* [Cue](https://cuelang.org/)
+* [Dhall](https://dhall-lang.org/)
+* [Hcl](https://github.com/hashicorp/hcl)
+* [Hjson](https://hjson.github.io/)
+* [Hocon](https://github.com/lightbend/config/blob/master/HOCON.md)
+* [Icinga dsl](https://icinga.com/docs/icinga-2/latest/doc/04-configuration/#hosts-conf)
+* [Yang](https://en.wikipedia.org/wiki/YANG)
+* [Jsonnet](https://jsonnet.org/)
+* [Meson](https://mesonbuild.com/Syntax.html)
+* [Nickel](https://github.com/tweag/nickel)
+* [Nix](https://nixos.wiki/wiki/Nix_Expression_Language)
+* [Rabl](https://github.com/nesquena/rabl)
+* [Toml](https://toml.io/en/)
+* [Virgo](https://github.com/r2d4/virgo)
+
