@@ -151,7 +151,7 @@ sub-obj :nth-child(0) {
 * [Configuration complexity curse](https://blog.cedriccharly.com/post/20191109-the-configuration-complexity-curse/)
 * [Configuration files suck](https://hackernoon.com/configuration-files-suck-6daa9812f601)
 * [State of config file formats](https://octopus.com/blog/state-of-config-file-formats)
-* [Awsome json (transformations)(https://github.com/burningtree/awesome-json#transformations)
+* [Awsome json](https://github.com/burningtree/awesome-json#transformations)
 
 ## Projects
 * [Archieml](http://archieml.org)
