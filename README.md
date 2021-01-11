@@ -115,6 +115,11 @@ sub-obj {
 sub-obj :nth-child(0) {
   property: "value"
 }
+```
+
+4.1 Simple Array (unstable)
+
+```css
 
 /*
  {
