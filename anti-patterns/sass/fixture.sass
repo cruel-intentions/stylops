@@ -1,0 +1,36 @@
+@import "./vars.sass"
+
+$answer: 42
+$c: child
+
+@page
+  integer: $answer
+  integer_array: array($answer, $answer - 1, $answer - 2)
+  float:  $answer + 0.24
+  float_array: array($answer + 0.24, $answer - 0.86, $answer - 1.96)
+  bool: true
+  bool-not: false
+  bool_array: array(true, false)
+
+@page
+  other-page: "string"
+
+@page
+  other-page: "overwrited string"
+
+#{$c}
+  #{$c}-value: "string"
+  #{$c}
+    #{$c}-#{$c}-value: answer
+  #{c}
+    #{$c}-#{$c}-other: "value"
+    
+#{$c} #{$c}_array
+  :nth-child(0)
+    #{$c}-#{$c}-array-zero: "I'm first " + $c
+  :nth-child(1)
+    #{$c}-#{$c}-array-one: "I'm second" + $c
+  :nth-child(0)
+    #{$c}-#{$c}-array-merge: "I'm first "  + $c  + " merg"
+  :nth-child(1)
+    #{$c}-#{$c}-array-one: "I'm second " + $c + " overwrited"

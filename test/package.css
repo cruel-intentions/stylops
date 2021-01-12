@@ -1,0 +1,14 @@
+@page {
+  name: "stylops-test-example";
+  author: "hugosenari";
+  main: "index.js";
+  version: "0.0.1";
+  license: "ISC";
+  description: "Show what you shouldn't do with test and stylops";
+}
+dependencies {
+  json2yaml: "^1.1.0";
+}
+scripts {
+  test: "echo 'Error: no test specified' && exit 1";
+}

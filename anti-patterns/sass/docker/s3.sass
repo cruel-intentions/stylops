@@ -1,0 +1,7 @@
+services
+  s3
+    image: "minio/minio"
+    volumes: array("./tests/s3/:/data")
+    command: "server /data"
+    ports: array("9000:9000")
+    environment: array("MINIO_SECRET_KEY=secret_key", "MINIO_ACCESS_KEY=access_key")

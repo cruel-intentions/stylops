@@ -1,0 +1,96 @@
+@page {
+  service: "stylops-test-serverless-example";
+}
+provider {
+  name: "aws";
+  stage: "${opt:stage, 'dev'}";
+  region: "${opt:region, 'us-east-1'}";
+  apiName: "${opt:apiName, 'stylops-api'}";
+  memorySize: "${opt:memorySize, 128}";
+  endpointType: "regional";
+  apiKeys: array("${opt:apiKey, 'The0Quick1Brown2Fox3Jumps4-Over5A6Lazy7Dog8'}");
+}
+provider environment {
+  PRODUCT_SHARED_KEY: "The0Quick1Brown2Fox3Jumps4-Over5A6Lazy7Dog8";
+}
+functions product_post {
+  handler: "src/product/post.handler";
+}
+functions product_post events :nth-child(0) httpApi {
+  path: "/";
+  method: "POST";
+}
+functions product_get {
+  handler: "src/product/get.handler";
+}
+functions product_get events :nth-child(0) httpApi {
+  path: "/{id}";
+  method: "GET";
+}
+functions product_put {
+  handler: "src/product/put.handler";
+}
+functions product_put events :nth-child(0) httpApi {
+  path: "/{id}";
+  method: "PUT";
+}
+resources Resources productsTable {
+  Type: "AWS::DynamoDB::Table";
+}
+resources Resources productsTable Properties {
+  TableName: "product${self:provider.stage}";
+}
+resources Resources productsTable Properties AttributeDefinitions :nth-child(0) {
+  AttributeName: "id";
+  AttributeType: "S";
+}
+resources Resources productsTable Properties KeySchema :nth-child(0) {
+  AttributeName: "id";
+  KeyType: "HASH";
+}
+resources Resources productsTable Properties ProvisionedThroughput {
+  ReadCapacityUnits: 3;
+  WriteCapacityUnits: 3;
+}
+provider environment {
+  USER_SHARED_KEY: "The0Quick1Brown2Fox3Jumps4-Over5A6Lazy7Dog8";
+}
+functions product_post {
+  handler: "src/user/post.handler";
+}
+functions product_post events :nth-child(0) httpApi {
+  path: "/";
+  method: "POST";
+}
+functions product_get {
+  handler: "src/user/get.handler";
+}
+functions product_get events :nth-child(0) httpApi {
+  path: "/{id}";
+  method: "GET";
+}
+functions product_put {
+  handler: "src/user/put.handler";
+}
+functions product_put events :nth-child(0) httpApi {
+  path: "/{id}";
+  method: "PUT";
+}
+resources Resources usersTable {
+  Type: "AWS::DynamoDB::Table";
+}
+resources Resources usersTable Properties {
+  TableName: "user${self:provider.stage}";
+}
+resources Resources usersTable Properties AttributeDefinitions :nth-child(0) {
+  AttributeName: "id";
+  AttributeType: "S";
+}
+resources Resources usersTable Properties KeySchema :nth-child(0) {
+  AttributeName: "id";
+  KeyType: "HASH";
+}
+resources Resources usersTable Properties ProvisionedThroughput {
+  ReadCapacityUnits: 3;
+  WriteCapacityUnits: 3;
+}
