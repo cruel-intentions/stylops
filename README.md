@@ -42,6 +42,7 @@ to known what you should and shouldn't do.
 # TODO
 
 * Make array harder to write
+* Find a way to set keys with spaces ie: `{ "stylops analis": "Stylopidae"}`
 
 
 # Usage
