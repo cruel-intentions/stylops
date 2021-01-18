@@ -148,11 +148,14 @@ sub-obj :nth-child(0) {
 # Related:
 
 ## Posts
+* [Awsome json](https://github.com/burningtree/awesome-json#transformations)
+* [Awsome yaml](https://github.com/dreftymac/awesome-yaml#templating)
 * [Configs Suck](https://beepb00p.xyz/configs-suck.html)
 * [Configuration complexity curse](https://blog.cedriccharly.com/post/20191109-the-configuration-complexity-curse/)
 * [Configuration files suck](https://hackernoon.com/configuration-files-suck-6daa9812f601)
+* [Painless YAML Templating](http://www.swisspush.org/tools/2020/01/29/painless-yaml-templating)
 * [State of config file formats](https://octopus.com/blog/state-of-config-file-formats)
-* [Awsome json](https://github.com/burningtree/awesome-json#transformations)
+* [Use placeholders in yaml](https://stackoverflow.com/questions/41620674/use-placeholders-in-yaml)
 
 ## Projects
 * [Archieml](http://archieml.org)
@@ -173,5 +176,8 @@ sub-obj :nth-child(0) {
 * [Toml](https://toml.io/en/)
 * [Virgo](https://github.com/r2d4/virgo)
 * [Watson](https://github.com/genkami/watson)
+* [YamlInc](https://github.com/javanile/yamlinc)
+* [Yamlp](https://bitbucket.org/djarvis/yamlp)
 * [Yang](https://en.wikipedia.org/wiki/YANG)
+* [Yglu](https://github.com/lbovet/yglu)
 * [Ytt](https://carvel.dev/ytt/)
