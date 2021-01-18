@@ -43,6 +43,7 @@ to known what you should and shouldn't do.
 
 * Make array harder to write
 * Find a way to set keys with spaces ie: `{ "stylops analis": "Stylopidae"}`
+* Support other CSS features (more selectors, import, variables, media-query)
 
 
 # Usage
