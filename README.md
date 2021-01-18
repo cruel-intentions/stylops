@@ -167,6 +167,7 @@ sub-obj :nth-child(0) {
 * [Hjson](https://hjson.github.io/)
 * [Hocon](https://github.com/lightbend/config/blob/master/HOCON.md)
 * [Icinga dsl](https://icinga.com/docs/icinga-2/latest/doc/04-configuration/#hosts-conf)
+* [Json-e](https://json-e.js.org/)
 * [Jsonnet](https://jsonnet.org/)
 * [Meson](https://mesonbuild.com/Syntax.html)
 * [Nickel](https://github.com/tweag/nickel)
