@@ -9,7 +9,7 @@ Write JSON as CSS
 [![License](https://img.shields.io/npm/l/stylops.svg)](https://github.com/hugosenari/stylops/blob/master/package.json)
 
 <!-- toc -->
-* [Why](#about)
+* [Why](#why)
 * [TODO](#todo)
 * [Usage](#usage)
 * [Related](#related)
@@ -21,7 +21,7 @@ Write JSON as CSS
 Instead of make your work of write JSON (maybe YAML) configuration file better
 this will make it worse.
 
-We really hope you didn't try to cheat using any prep-processor
+We really hope you didn't try to cheat using any pre-processor
 like [stylus](https://stylus-lang.com/#features), [sass](https://sass-lang.com/),
 [less](http://lesscss.org/), because if you do, your verbose CSS will gain
 features like *variables*, *includes*, *mixins* and etc, please don't do that.
@@ -32,7 +32,7 @@ if you write your selector two times your object will:
 1. Merge properties
 2. Overwrite if exists
 
-Fortunately, unlike any pre-processor, `include` isn't supported, otherwise you
+Fortunately, unlike any pre-processor or browser, `include` isn't supported, otherwise you
 could use it to make any included file change any property of final
 json, like happens when mutiple css files have same selector, [example](./shot-2021-01-09_20-54-34.jpg?raw=true).
 
@@ -154,6 +154,7 @@ sub-obj :nth-child(0) {
 * [Configs Suck](https://beepb00p.xyz/configs-suck.html)
 * [Configuration complexity curse](https://blog.cedriccharly.com/post/20191109-the-configuration-complexity-curse/)
 * [Configuration files suck](https://hackernoon.com/configuration-files-suck-6daa9812f601)
+* [INTERCAL, YAML, And Other Horrible Programming Languages](https://www.reddit.com/r/programming/comments/ls6tgm/intercal_yaml_and_other_horrible_programming/)
 * [Noyaml](https://noyaml.com/)
 * [Painless YAML Templating](http://www.swisspush.org/tools/2020/01/29/painless-yaml-templating)
 * [State of config file formats](https://octopus.com/blog/state-of-config-file-formats)
@@ -166,6 +167,7 @@ sub-obj :nth-child(0) {
 * [Coil](https://code.google.com/archive/p/coil/)
 * [Cue](https://cuelang.org/)
 * [Echelons](https://github.com/freshtonic/echelons)
+* [Eno](https://eno-lang.org/)
 * [Dhall](https://dhall-lang.org/)
 * [Freemarker-template-for-json](https://github.com/dphean/freemarker-template-for-json)
 * [Frep](https://github.com/subchen/frep)
