@@ -200,6 +200,7 @@ sub-obj :nth-child(0) {
 * [Kanabo](https://github.com/kevinbirch/kanabo)
 * [Merge-yaml](https://github.com/EdisonLabs/merge-yaml)
 * [Meson](https://mesonbuild.com/Syntax.html)
+* [MSON](https://apiblueprint.org/documentation/mson/specification.html)
 * [Nickel](https://github.com/tweag/nickel)
 * [Nix](https://nixos.wiki/wiki/Nix_Expression_Language)
 * [Onion](https://github.com/UnquietCode/onion)
