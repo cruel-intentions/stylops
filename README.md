@@ -207,6 +207,7 @@ sub-obj :nth-child(0) {
 * [Rabl](https://github.com/nesquena/rabl)
 * [Refmt](https://github.com/rjeczalik/refmt)
 * [Refs](https://github.com/doublenot/refs)
+* [Rego](https://www.openpolicyagent.org/docs/latest/policy-language/)
 * [Rjsone](https://github.com/wryun/rjsone)
 * [Samovar](https://github.com/timdp/samovar)
 * [Skylark](https://docs.bazel.build/versions/master/skylark/language.html#differences-with-python)
