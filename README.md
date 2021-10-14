@@ -198,6 +198,7 @@ sub-obj :nth-child(0) {
 * [Jsonnet](https://jsonnet.org/)
 * [Kale](https://github.com/jaylach/kale)
 * [Kanabo](https://github.com/kevinbirch/kanabo)
+* [KDL](https://kdl.dev/)
 * [KSON](https://gitlab.com/jacob.brazeal/ksonpy)
 * [Merge-yaml](https://github.com/EdisonLabs/merge-yaml)
 * [Meson](https://mesonbuild.com/Syntax.html)
