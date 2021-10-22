@@ -217,6 +217,7 @@ sub-obj :nth-child(0) {
 * [Skylark](https://docs.bazel.build/versions/master/skylark/language.html#differences-with-python)
 * [Spiff](https://github.com/mandelsoft/spiff)
 * [St](https://selecttransform.github.io/site/)
+* [Tao](https://www.tree-annotation.org/)
 * [Toml](https://toml.io/en/)
 * [Template](https://github.com/koki/templates)
 * [Templateur](https://github.com/cbguder/templateur)
