@@ -198,6 +198,7 @@ sub-obj :nth-child(0) {
 * [Jtool](https://github.com/dackon/jtool)
 * [Json-e](https://json-e.js.org/)
 * [Jsonnet](https://jsonnet.org/)
+* [JsonNext](https://json-next.github.io/)
 * [Kale](https://github.com/jaylach/kale)
 * [Kanabo](https://github.com/kevinbirch/kanabo)
 * [KDL](https://kdl.dev/)
