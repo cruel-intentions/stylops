@@ -171,6 +171,7 @@ sub-obj :nth-child(0) {
 * [Coil](https://code.google.com/archive/p/coil/)
 * [Cue](https://cuelang.org/)
 * [Echelons](https://github.com/freshtonic/echelons)
+* [Edn](https://github.com/edn-format/edn)
 * [Eno](https://eno-lang.org/)
 * [Dhall](https://dhall-lang.org/)
 * [Freemarker-template-for-json](https://github.com/dphean/freemarker-template-for-json)
