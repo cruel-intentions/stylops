@@ -150,6 +150,7 @@ sub-obj :nth-child(0) {
 
 ## Posts
 * [Awsome json](https://github.com/burningtree/awesome-json#transformations)
+* [Conflang 2021](https://2021.splashcon.org/home/conflang-2021#program)
 * [Awsome yaml](https://github.com/dreftymac/awesome-yaml#templating)
 * [Configs Suck](https://beepb00p.xyz/configs-suck.html)
 * [Configuration complexity curse](https://blog.cedriccharly.com/post/20191109-the-configuration-complexity-curse/)
