@@ -159,6 +159,7 @@ sub-obj :nth-child(0) {
 * [Conflang 2021](https://2021.splashcon.org/home/conflang-2021#About)
 * [Design Criteria for Programming Languages](http://jcsites.juniata.edu/faculty/rhodes/lt/plcriteria.htm)
 * [Extensibility over Configuration](https://www.gertgoeman.com/posts/extensibility-over-configuration/)
+* [Every Sufficiently Advanced Configuration Language is Wrong](https://matt-rickard.com/advanced-configuration-languages-are-wrong)
 * [INTERCAL, YAML, And Other Horrible Programming Languages](https://www.reddit.com/r/programming/comments/ls6tgm/intercal_yaml_and_other_horrible_programming/)
 * [Language Evaluation Criteria](https://progr-harrykar.blogspot.com/2018/11/language-evaluation-criteria.html)
 * [Noyaml](https://noyaml.com/)
@@ -166,6 +167,7 @@ sub-obj :nth-child(0) {
 * [State of config file formats](https://octopus.com/blog/state-of-config-file-formats)
 * [Structured text tools](https://github.com/dbohdan/structured-text-tools)
 * [Use placeholders in yaml](https://stackoverflow.com/questions/41620674/use-placeholders-in-yaml)
+
 
 ## Projects
 * [Archieml](http://archieml.org)
