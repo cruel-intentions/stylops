@@ -242,3 +242,13 @@ sub-obj :nth-child(0) {
 * [yconf](https://github.com/kampka/yconf)
 * [Yglu](https://github.com/lbovet/yglu)
 * [Ytt](https://carvel.dev/ytt/)
+
+## Notable implementations
+
+Sometimes, we don't like a language used as config because, some developers did a poor job on the application side, like not validating it, or in the case o CSS presenting different behavior in different browsers. 
+
+Sometimes, it goes in oposite direction, not only implementing it well, but exteding its functionality to match application domain:
+
+* [Serverless.JS](https://www.serverless.com/framework/docs/providers/aws/guide/variables): YAML with vars, includes and js function call
+* [Ansible](https://www.serverless.com/framework/docs/providers/aws/guide/variables): YAML with vars, imports and loops
+* [NixOS Modules](https://nixos.org/manual/nixos/stable/index.html#sec-modularity): Nix with modularity, merge and type validation
