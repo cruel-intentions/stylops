@@ -165,6 +165,7 @@ sub-obj :nth-child(0) {
 * [Painless YAML Templating](http://www.swisspush.org/tools/2020/01/29/painless-yaml-templating)
 * [State of config file formats](https://octopus.com/blog/state-of-config-file-formats)
 * [Structured text tools](https://github.com/dbohdan/structured-text-tools)
+* [Taming the Beast: Comparing Jsonnet, Dhall, Cue](https://pv.wtf/posts/taming-the-beast?ref=styleops)
 * [Use placeholders in yaml](https://stackoverflow.com/questions/41620674/use-placeholders-in-yaml)
 
 
