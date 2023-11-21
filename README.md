@@ -180,7 +180,7 @@ sub-obj :nth-child(0) {
 * [Dhall](https://dhall-lang.org/)
 * [Freemarker-template-for-json](https://github.com/dphean/freemarker-template-for-json)
 * [Frep](https://github.com/subchen/frep)
-* [FDT](https://www.fifthtry.com/ftd/)
+* [FDT](https://fastn.com/ftd)
 * [Grfon](https://app.assembla.com/spaces/grfon/subversion/source)
 * [Gura](https://gura.netlify.app/)
 * [Hcl](https://github.com/hashicorp/hcl)
