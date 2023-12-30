@@ -241,6 +241,7 @@ sub-obj :nth-child(0) {
 * [Yamlp](https://bitbucket.org/djarvis/yamlp)
 * [Yamlpal](https://github.com/otrosien/yaml-merge)
 * [Yamlpath](https://github.com/wwkimball/yamlpath)
+* [YAMLScript](https://yamlscript.org/)
 * [Yang](https://en.wikipedia.org/wiki/YANG)
 * [yconf](https://github.com/kampka/yconf)
 * [Yglu](https://github.com/lbovet/yglu)
