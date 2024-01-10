@@ -167,6 +167,7 @@ sub-obj :nth-child(0) {
 * [Structured text tools](https://github.com/dbohdan/structured-text-tools)
 * [Taming the Beast: Comparing Jsonnet, Dhall, Cue](https://pv.wtf/posts/taming-the-beast?ref=styleops)
 * [Use placeholders in yaml](https://stackoverflow.com/questions/41620674/use-placeholders-in-yaml)
+* [XML is better than YAML](https://changelog.com/posts/xml-better-than-yaml)
 
 
 ## Projects
