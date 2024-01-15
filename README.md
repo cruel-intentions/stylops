@@ -178,6 +178,7 @@ sub-obj :nth-child(0) {
 * [Echelons](https://github.com/freshtonic/echelons)
 * [Edn](https://github.com/edn-format/edn)
 * [Eno](https://eno-lang.org/)
+* [Expr](https://expr-lang.org/)
 * [Dhall](https://dhall-lang.org/)
 * [Freemarker-template-for-json](https://github.com/dphean/freemarker-template-for-json)
 * [Frep](https://github.com/subchen/frep)
