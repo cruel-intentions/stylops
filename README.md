@@ -157,6 +157,7 @@ sub-obj :nth-child(0) {
 * [Configuration files suck](https://hackernoon.com/configuration-files-suck-6daa9812f601)
 * [Conflang 2021](https://2021.splashcon.org/home/conflang-2021#About)
 * [Design Criteria for Programming Languages](http://jcsites.juniata.edu/faculty/rhodes/lt/plcriteria.htm)
+* [Do you know YAML](https://fosdem.org/2024/schedule/event/fosdem-2024-2046-do-you-know-yaml-/)
 * [Extensibility over Configuration](https://www.gertgoeman.com/posts/extensibility-over-configuration/)
 * [Every Sufficiently Advanced Configuration Language is Wrong](https://matt-rickard.com/advanced-configuration-languages-are-wrong)
 * [INTERCAL, YAML, And Other Horrible Programming Languages](https://www.reddit.com/r/programming/comments/ls6tgm/intercal_yaml_and_other_horrible_programming/)
