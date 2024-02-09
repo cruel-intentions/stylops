@@ -220,6 +220,7 @@ sub-obj :nth-child(0) {
 * [Nickel](https://github.com/tweag/nickel)
 * [Nix](https://nixos.wiki/wiki/Nix_Expression_Language)
 * [Onion](https://github.com/UnquietCode/onion)
+* [Pkl](https://pkl-lang.org/index.html)
 * [Preserves](https://preserves.dev/)
 * [Rabl](https://github.com/nesquena/rabl)
 * [Refmt](https://github.com/rjeczalik/refmt)
