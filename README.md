@@ -228,6 +228,7 @@ sub-obj :nth-child(0) {
 * [Rego](https://www.openpolicyagent.org/docs/latest/policy-language/)
 * [Rjsone](https://github.com/wryun/rjsone)
 * [Samovar](https://github.com/timdp/samovar)
+* [SML](https://dev.stenway.com/SML/SimpleML.html)
 * [Skylark](https://docs.bazel.build/versions/master/skylark/language.html#differences-with-python)
 * [Spiff](https://github.com/mandelsoft/spiff)
 * [St](https://selecttransform.github.io/site/)
