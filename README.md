@@ -252,6 +252,7 @@ sub-obj :nth-child(0) {
 * [Yang](https://en.wikipedia.org/wiki/YANG)
 * [yconf](https://github.com/kampka/yconf)
 * [Yglu](https://github.com/lbovet/yglu)
+* [YINI](https://github.com/YINI-lang/YINI-spec)
 * [Ytt](https://carvel.dev/ytt/)
 * [Ziggy](https://ziggy-lang.io/)
 
