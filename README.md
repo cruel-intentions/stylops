@@ -214,6 +214,7 @@ sub-obj :nth-child(0) {
 * [Kanabo](https://github.com/kevinbirch/kanabo)
 * [KDL](https://kdl.dev/)
 * [KSON](https://gitlab.com/jacob.brazeal/ksonpy)
+* [MAML](https://github.com/maml-dev/maml)
 * [MERC](https://ki-editor.github.io/merc/)
 * [Merge-yaml](https://github.com/EdisonLabs/merge-yaml)
 * [Meson](https://mesonbuild.com/Syntax.html)
