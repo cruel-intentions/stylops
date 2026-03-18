@@ -18,7 +18,7 @@ Write JSON as CSS
 
 **MORE PAIN! NO GAIN!**
 
-Instead of make your work of write JSON (maybe YAML) configuration file better
+Instead of making your work of write JSON (maybe YAML) configuration file better
 this will make it worse.
 
 We really hope you didn't try to cheat using any pre-processor
