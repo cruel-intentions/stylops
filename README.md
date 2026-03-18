@@ -189,6 +189,7 @@ sub-obj :nth-child(0) {
 * [Hcl](https://github.com/hashicorp/hcl)
 * [Hjson](https://hjson.github.io/)
 * [Hocon](https://github.com/lightbend/config/blob/master/HOCON.md)
+* [HUML](https://huml.io/)
 * [Icinga dsl](https://icinga.com/docs/icinga-2/latest/doc/04-configuration/#hosts-conf)
 * [Ion](https://amazon-ion.github.io/ion-docs/)
 * [Jinsi](https://github.com/scravy/jinsi)
