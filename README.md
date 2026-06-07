@@ -188,6 +188,7 @@ sub-obj :nth-child(0) {
 * [Gura](https://gura.netlify.app/)
 * [Hcl](https://github.com/hashicorp/hcl)
 * [Hjson](https://hjson.github.io/)
+* [Hml](https://github.com/cladam/hml/tree/main)
 * [Hocon](https://github.com/lightbend/config/blob/master/HOCON.md)
 * [HUML](https://huml.io/)
 * [Icinga dsl](https://icinga.com/docs/icinga-2/latest/doc/04-configuration/#hosts-conf)
