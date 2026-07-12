@@ -233,6 +233,7 @@ sub-obj :nth-child(0) {
 * [Rjsone](https://github.com/wryun/rjsone)
 * [Ron](https://docs.rs/ron/latest/ron/)
 * [Samovar](https://github.com/timdp/samovar)
+* [SCFG](https://codeberg.org/emersion/scfg)
 * [SML](https://dev.stenway.com/SML/SimpleML.html)
 * [Skylark](https://docs.bazel.build/versions/master/skylark/language.html#differences-with-python)
 * [Spiff](https://github.com/mandelsoft/spiff)
