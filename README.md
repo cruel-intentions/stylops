@@ -222,6 +222,7 @@ sub-obj :nth-child(0) {
 * [Meson](https://mesonbuild.com/Syntax.html)
 * [MSON](https://apiblueprint.org/documentation/mson/specification.html)
 * [Nickel](https://github.com/tweag/nickel)
+* [NIF](https://github.com/nim-lang/nifspec)
 * [Nix](https://nixos.wiki/wiki/Nix_Expression_Language)
 * [Onion](https://github.com/UnquietCode/onion)
 * [Pkl](https://pkl-lang.org/index.html)
